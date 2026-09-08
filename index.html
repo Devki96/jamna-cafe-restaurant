@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Jamna Cafe and Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-coffee"></i> The Jamna
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to The Jamna</h1>
+            <p>Experience the finest cafe and restaurant cuisine</p>
+            <button class="cta-button">Reserve a Table</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=300&h=200&fit=crop" alt="Coffee">
+                    <h3>Premium Coffee</h3>
+                    <p>Freshly brewed espresso, cappuccino, and specialty coffee blends</p>
+                    <span class="price">$3.50 - $6.00</span>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1484723859370-3a8ee3dccb15?w=300&h=200&fit=crop" alt="Pastries">
+                    <h3>Fresh Pastries</h3>
+                    <p>Croissants, muffins, and freshly baked goods daily</p>
+                    <span class="price">$2.50 - $4.50</span>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1565958011504-98d96681b415?w=300&h=200&fit=crop" alt="Breakfast">
+                    <h3>Breakfast Special</h3>
+                    <p>Eggs, pancakes, bacon, and healthy smoothie bowls</p>
+                    <span class="price">$7.99 - $12.99</span>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=200&fit=crop" alt="Lunch">
+                    <h3>Lunch Dishes</h3>
+                    <p>Sandwiches, salads, and hearty bowls</p>
+                    <span class="price">$8.99 - $14.99</span>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=200&fit=crop" alt="Dinner">
+                    <h3>Dinner Entrees</h3>
+                    <p>Grilled meats, fresh seafood, and vegetarian options</p>
+                    <span class="price">$15.99 - $28.99</span>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=300&h=200&fit=crop" alt="Desserts">
+                    <h3>Desserts</h3>
+                    <p>Cakes, ice cream, and sweet treats</p>
+                    <span class="price">$4.50 - $7.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About The Jamna</h2>
+                    <p>The Jamna Cafe and Restaurant is a family-owned establishment dedicated to serving the finest quality food and beverages. With over 15 years of experience, we pride ourselves on our warm hospitality, excellent service, and commitment to culinary excellence.</p>
+                    <p>Our chef sources the freshest ingredients locally and internationally to create memorable dining experiences. Whether you're looking for a quick coffee, a casual lunch, or an elegant dinner, The Jamna is your perfect destination.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Fresh Ingredients</h4>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-handshake"></i>
+                            <h4>Excellent Service</h4>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-star"></i>
+                            <h4>Premium Quality</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561af1?w=400&h=300&fit=crop" alt="Restaurant Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservations Section -->
+    <section class="reservations" id="reservations">
+        <div class="container">
+            <h2>Make a Reservation</h2>
+            <form class="reservation-form" id="reservationForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Your Phone" required>
+                </div>
+                <div class="form-group">
+                    <input type="date" required>
+                </div>
+                <div class="form-group">
+                    <input type="time" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="">Select Number of Guests</option>
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests</option>
+                        <option value="6+">6+ Guests</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-button">Reserve Table</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>123 Main Street<br>Downtown, NY 10001</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>(555) 123-4567<br>(555) 123-4568</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@jamnacafe.com<br>reservations@jamnacafe.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Hours</h3>
+                    <p>Mon-Fri: 7am - 11pm<br>Sat-Sun: 8am - 12am</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 The Jamna Cafe and Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
